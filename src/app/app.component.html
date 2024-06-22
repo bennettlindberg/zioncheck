@@ -1,4 +1,8 @@
-<p class="text-orange-400 text-6xl">
-    Hello!
-</p>
-<router-outlet />
+<div class="grid grid-cols-12 grid-rows-1 h-full">
+    <nav class="col-span-1 col-start-1 row-start-1 border-r-4 border-[#EAE3D7]">
+        <nav-bar />
+    </nav>
+    <main class="col-span-11 col-start-2 row-start-1">
+        <router-outlet />
+    </main>
+</div>
